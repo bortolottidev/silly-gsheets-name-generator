@@ -1,0 +1,27 @@
+{
+  "name": "gsheetsillyname",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Just a silly italian noun adjective generator for google sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test --env-file=.env *.test.js",
+    "dev": "node --env-file=.env index.js"
+  },
+  "keywords": [
+    "googleapis",
+    "gemini",
+    "spreadsheet",
+    "silly generator",
+    "fakerjs"
+  ],
+  "author": "daniele",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@google-cloud/local-auth": "2.1.0",
+    "@google/generative-ai": "^0.17.2",
+    "googleapis": "105",
+    "translatte": "^3.0.1"
+  }
+}
